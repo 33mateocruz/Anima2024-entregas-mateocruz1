@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.tarjeta {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+}
+
+.tarjeta img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+.sale {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 12%;
+}
+
+.precio {
+  border-radius: 12%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.hero-section {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+.img-fluid {
+  align-items: center;
+  border-radius: 5%;
+  padding: 20px 0;
+}
+.container2 {
+  max-width: 1119px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.card-img {
+  object-fit: cover;
+  object-position: 50%;
+  height: 350px;
+}
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20% 0;
+}
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+}
