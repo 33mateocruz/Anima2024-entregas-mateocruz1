@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+#movieTitle {
+  padding: 10px;
+  width: 60%;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#searchBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+#searchBtn:hover {
+  background-color: #218838;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+#loader {
+  font-size: 18px;
+  color: #888;
+}
+
+.hidden {
+  display: none;
+}
+
+#movieInfo {
+  margin-top: 30px;
+  text-align: left;
+  line-height: 1.6;
+}
+
+#poster {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#error {
+  color: red;
+}
